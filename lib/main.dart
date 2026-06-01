@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'presentation/screens/my_home_page.dart';
 
 void main() {
   runApp(
@@ -7,17 +8,4 @@ void main() {
       debugShowCheckedModeBanner: false,
     ),
   );
-}
-
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Text(
-        'Hello',
-      ),
-    );
-  }
 }
